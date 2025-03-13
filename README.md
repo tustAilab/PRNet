@@ -1,7 +1,5 @@
 # PRNet: A Contrastive Ranking Model Based on 3D Convolution and Bi-LSTM for Channelrhodopsin Prediction
 
-
-
 ## Overview
 
 Channelrhodopsins (ChRs) are pivotal tools in optogenetics, enabling precise modulation of neuronal circuits. Traditional experimental methods for screening high-performance ChR variants are both costly and time-consuming, compounded by the scarcity of experimental data. To address these challenges, we introduce PRNet, a deep learning framework that integrates contrastive ranking with 3D convolutional networks and Bi-LSTM architectures. PRNet effectively predicts ChR functional properties using limited sample sizes, offering a robust solution for small-sample learning and multimodal feature fusion.
@@ -30,6 +28,8 @@ Channelrhodopsins (ChRs) are pivotal tools in optogenetics, enabling precise mod
    git clone https://github.com/yourusername/PRNet.git
    cd PRNet
 
+   ```
+
 1. **Create and activate a Python virtual environment**:
 
    ```
@@ -37,7 +37,7 @@ Channelrhodopsins (ChRs) are pivotal tools in optogenetics, enabling precise mod
    conda activate PRNet
    ```
 
-2. **Install the required dependencies**:
+1. **Install the required dependencies**:
 
    ```
    pip install -r requirements.txt
